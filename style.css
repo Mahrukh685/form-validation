@@ -53,3 +53,17 @@ h2{
 
 
 }
+.password-container{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.fa-eye{
+    position:absolute;
+    top:28%;
+    right:4%;
+    cursor:pointer;
+
+}

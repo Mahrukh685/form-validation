@@ -31,3 +31,20 @@ function validation() {
     
 
 }
+
+function show_password(){
+    if(password.type=="password"){
+        password.type="text";
+    }else{
+     password.type="password";
+    }
+
+}
+function confirm_password(){
+    if(conpassword.type=="password"){
+        conpassword.type="text";
+    }else{
+     conpassword.type="password";
+    }
+
+}
